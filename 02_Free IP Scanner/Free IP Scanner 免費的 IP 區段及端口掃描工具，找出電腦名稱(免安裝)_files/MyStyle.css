@@ -1,0 +1,264 @@
+﻿* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 微軟正黑體, 新細明體, 細明體, verdana, arial, sans-serif;
+    margin: 0px;
+}
+/* Header/Blog Title */
+.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #3b5998;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 66%;
+    padding-left: 7%; /*控制左邊空白*/
+}
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 34%;
+    padding-left: 12px; /*左右間隔*/
+    padding-right: 7%; /*控制右邊邊空白*/
+}
+
+/* Add a card effect for articles */
+.card { /*無論螢幕大小都顯示*/
+    padding: 8px;
+    margin-top: 8px;
+}
+    .card a.title {
+        color: black;
+        text-decoration: none;
+        font-weight: 800;
+    }
+    .card a.title:hover {
+            color: #FF6600;
+            text-decoration: none;
+    }
+    .card a.continueRead {
+        font-size: 26px;
+        color: blue;
+        text-decoration: none;
+    }
+    .card a.continueRead:hover {
+        color: black;
+        text-decoration: none; 
+    }
+
+.carddisplaytrue { /*無論螢幕大小都顯示*/
+    padding: 8px;
+    margin-top: 8px;
+}
+
+.carddisplayfalse { /*根據螢幕大小才顯示，在@media控制*/
+    padding: 8px;
+    margin-top: 8px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #EDEFF4;
+    margin-top: 20px;
+}
+#gotop {
+    position: fixed;
+    border-radius: 50%;
+    right: 20px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    background: rgba(0, 119, 204, 0.5);
+    color: #FAFCFD;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+    display: none;
+}
+.menuIsDisplay {
+    display: none;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+    .carddisplayfalse {
+        display: none;
+    }
+    .menuIsDisplay {
+        display: inline;
+    }
+    .header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+/*-------------------------*/
+.MenuBox { /*首、尾導航條*/
+    text-align: center;
+    color: #C0C0C0;
+}
+    .MenuBox ul {
+        list-style-type: none;
+    }
+    .MenuBox li {
+        display: inline;
+    }
+/*index 分頁用*/
+.PageHeight {
+    height: 32px;
+}
+.PNPage {
+    border-right: #B5C7DE 1px solid;
+    border-top: #B5C7DE 1px solid;
+    border-left: #B5C7DE 1px solid;
+    border-bottom: #B5C7DE 1px solid;
+    padding: 6px;
+    font-size: 10pt;
+    line-height: 150%;
+}
+.NumericButton {
+    font-size: 12pt;
+    padding: 6px;
+    border-right: #B5C7DE 1px solid;
+    border-top: #B5C7DE 1px solid;
+    border-left: #B5C7DE 1px solid;
+    border-bottom: #B5C7DE 1px solid;
+    color: Gray;
+}
+.CurrentPageButton {
+    border-right: #B5C7DE 1px solid;
+    border-top: #B5C7DE 1px solid;
+    border-left: #B5C7DE 1px solid;
+    border-bottom: #B5C7DE 1px solid;
+    font-size: 10pt;
+    background-color: #FF9933;
+    color: #FFFFFF;
+    padding: 6px;
+    font-weight: bold;
+}
+/*index 分頁用結束*/
+/*為定義的 a適用*/
+a:link {
+    color: #0066FF;
+    text-decoration: none;
+}
+a:visited {
+    color: #0066FF;
+    text-decoration: none;
+}
+a:hover {
+    color: #FF6600;
+    text-decoration: none;
+}
+a:active {
+    color: #FF6600;
+    text-decoration: none;
+}
+/*英文字自動斷行*/
+.word_warp {
+    word-break: break-all;
+}
+/*h1字形*/
+.fh1 {
+    font-size: 26px;
+    font-weight: 800;
+}
+/*內容邊框*/
+.borderc {
+    border: 1px solid #94A3C4;
+    box-shadow: 1px 1px 2px #808080;
+    border-radius: 2px;
+}
+/*側邊攔邊框*/
+.borders {
+    border: 1px solid #94A3C4; 
+    box-shadow: 1px 1px 2px #808080;
+    border-radius: 2px;
+}
+/*輸入框的框線*/
+.txtfield {
+    border-right: #B5C7DE 1px solid;
+    border-top: #B5C7DE 1px solid;
+    border-left: #B5C7DE 1px solid;
+    border-bottom: #B5C7DE 1px solid;
+}
+/*廣告用*/
+.Adscenter {
+    margin: 0 auto;
+    text-align:center;
+}
+.Adsinline {
+    display: inline;
+}
+.AdsDisplayFalse {
+    display: none;
+}
+.AdsMarginTopBottom {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.AdsMarginTop {
+    margin-top: 8px;
+}
+.AdsMarginTop18 {
+    margin-top: 18px;
+}
+/*title 用*/
+a.R_title_a:link {
+    color: #C50000;
+    text-decoration: none;
+}
+
+a.R_title_a:visited {
+    color: #C50000;
+    text-decoration: none;
+}
+
+a.R_title_a:hover {
+    color: #FF6600;
+    text-decoration: none;
+}
+a.R_title_a:active {
+    color: #FF6600;
+    text-decoration: none;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    /*right: 7%;
+    width: 25%;*/
+}
+/*20200314新增*/
+.tagMenu ul li {
+    display:inline;
+}
+
+

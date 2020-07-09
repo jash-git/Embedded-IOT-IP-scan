@@ -1,0 +1,7 @@
+(function() {
+	(document.createElement('IMG')).src = 'https://x.bidswitch.net/sync?dsp_id=303&user_id=k5iLPu65sJsn';
+	(document.createElement('IMG')).src = 'https://cm.lentainform.com/setmuidn/?muidf=k5iLPu65sJsn';
+	(document.createElement('IMG')).src = 'https://match.adsrvr.org/track/cmf/generic?ttd_pid=omn67hl&ttd_tpi=1';
+	(document.createElement('IMG')).src = 'https://cm.g.doubleclick.net/pixel?google_nid=marketgid&google_cm=&google_ula={guid}&google_hm=azVpTFB1NjVzSnNu&muidn=k5iLPu65sJsn';
+	(document.createElement('IMG')).src = 'https://cm.idealmedia.io/setmuidn/?muidf=k5iLPu65sJsn';
+})()

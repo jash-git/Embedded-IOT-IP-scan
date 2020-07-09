@@ -1,0 +1,678 @@
+/* cpe1208 : Tue, 30 Oct 2018 14:21:01 +0800 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+margin:0;
+padding:0;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+td {
+border:1px solid #ccc;
+}
+
+address,caption,cite,code,dfn,th,var {
+font-style:normal;
+font-weight:normal;
+}
+
+ol,ul {
+list-style:none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-size:100%;
+font-weight:normal;
+}
+
+q:before,q:after {
+content:'';
+}
+
+pre {
+font-size:1em;
+}
+
+.article-content {
+_height:1%;
+overflow:hidden;
+_overflow:none;
+font-size:9pt;
+line-height:20px;
+padding:10px;
+}
+
+html {
+scrollbar-face-color:#fff;
+scrollbar-highlight-color:#dfc5a4;
+scrollbar-shadow-color:#dfc5a4;
+scrollbar-3dlight-color:#dfc5a4;
+scrollbar-arrow-color:#dfc5a4;
+scrollbar-track-color:#dfc5a4;
+scrollbar-darkshadow-color:#dfc5a4;
+scrollbar-base-color:#dfc5a4;
+}
+
+body {
+font-family:arial;
+font-size:9pt;
+color:#555;
+letter-spacing:1px;
+background:#dfc5a4 url(https://pic.pimg.tw/gomay520/19e69cf4fb0b13126bc6b2a584af8145.jpg) repeat-x right top;
+background-image:url(https://pic.pimg.tw/gomay520/19e69cf4fb0b13126bc6b2a584af8145.jpg);
+background-color:#dfc5a4;
+background-repeat:no-repeat;
+background-position:center;
+margin:0 auto;
+}
+
+a {
+text-decoration:none;
+color:#000;
+}
+
+a:hover {
+color:#777;
+}
+
+br {
+letter-spacing:0;
+}
+
+input {
+border:0 solid #ccc;
+background:#eee;
+font-size:9pt;
+font-family:arial;
+color:#777;
+height:18px;
+vertical-align:middle;
+-moz-border-radius:5px;
+padding:0 5px;
+}
+
+textarea {
+background:#eee;
+overflow:hidden;
+border:0;
+}
+
+#body-div {
+overflow:hidden;
+width:1024px;
+margin:0 auto;
+}
+
+#authority {
+height:0;
+position:absolute;
+z-index:99999;
+}
+
+#authority a {
+background:#fff;
+position:relative;
+top:10px;
+left:0;
+float:left;
+color:#000;
+font-weight:bold;
+-moz-border-radius:5px;
+margin:0 7px 0 0;
+padding:3px;
+}
+
+#main {
+margin:0 10px 0 0;
+}
+
+#main:after {
+content:".";
+height:0;
+display:block;
+clear:both;
+visibility:hidden;
+overflow:hidden;
+}
+
+#header {
+position:relative;
+width:1024px;
+height:434px;
+background:url(https://pic.pimg.tw/gomay520/816012b0a0c4966815d935c62abd2a40.jpg) no-repeat left top;
+color:#555;
+background-image:url(https://pic.pimg.tw/cpe1208/1347520072-3583257665.jpg);
+background-position:top left;
+background-repeat:no-repeat;
+}
+
+#banner {
+position:absolute;
+left:450px;
+top:50px;
+}
+
+#banner h1 a {
+width:500px;
+font-size:25px;
+font-family:simhei;
+display:block;
+color:#66361f;
+overflow:hidden;
+}
+
+#banner h1 a:hover {
+color:#66361f;
+}
+
+#banner h2 {
+word-break:break-all;
+text-align:left;
+width:545px;
+height:auto;
+line-height:18px;
+overflow:hidden;
+position:relative;
+top:10px;
+left:0;
+color:#fff;
+}
+
+#blog-category {
+position:absolute;
+top:180px;
+left:0;
+color:#d95876;
+}
+
+#login-bar {
+width:519px;
+position:absolute;
+left:400px;
+top:339px;
+color:#fff;
+text-align:left;
+}
+
+#login-bar a {
+color:#fff;
+}
+
+#navigation {
+position:absolute;
+top:359px;
+left:435px;
+}
+
+#navigation a {
+margin-right:0;
+text-indent:-5000px;
+display:block;
+width:122px;
+height:28px;
+color:#fff;
+}
+
+#spotlight {
+width:490px;
+margin-bottom:10px;
+background:#fff;
+border:1px solid #a1744a;
+}
+
+#spotlight h5 {
+font-weight:bold;
+color:#555;
+text-align:center;
+border-bottom:1px solid #a1744a;
+padding:4px 0;
+}
+
+#spotlight-text {
+color:#555;
+text-align:center;
+width:490px;
+line-height:21px;
+padding:10px 0;
+}
+
+#spotlight-text a {
+color:#555;
+font-weight:normal;
+text-decoration:underline;
+}
+
+#content {
+width:710px;
+float:right;
+_overflow:hidden;
+position:relative;
+right:0;
+}
+
+.article-head {
+position:relative;
+margin-bottom:15px;
+_height:1%;
+}
+
+.publish {
+background:url(https://pic.pimg.tw/gomay520/aa7a73101101140cc5d6aabe2915b201.jpg) no-repeat left top;
+text-align:left;
+font-size:9pt;
+height:60px;
+font-weight:bold;
+color:#555;
+padding:21px 0 0 85px;
+}
+
+.date {
+font-size:25pt;
+position:absolute;
+left:0;
+top:0;
+color:#d85a72;
+padding:23px 0 0 22px;
+}
+
+.title {
+font-size:9pt;
+text-align:left;
+margin:-32px 0 0 80px;
+padding:0;
+}
+
+#article-area {
+overflow:hidden;
+margin:0;
+padding:0;
+}
+
+.article-body {
+background:#fff;
+border-left:1px solid #a1744a;
+border-right:1px solid #a1744a;
+overflow:hidden;
+}
+
+.more {
+margin:20px 10px 20px 0;
+}
+
+.more a {
+color:#3a3a37;
+}
+
+.author {
+border-bottom:1px solid #a1744a;
+color:#000;
+text-align:right;
+margin:0;
+padding:5px 5px 5px 0;
+}
+
+.article-footer {
+background:url(https://pic.pimg.tw/gomay520/0dbebdc5a314a0804bcf042ed9778fcf.jpg) no-repeat left bottom;
+text-align:right;
+color:#555;
+line-height:19px;
+}
+
+.bookmark {
+text-align:right;
+padding:20px 0 0;
+}
+
+.back-to-top {
+margin:0 0 20px;
+padding:2px 5px 2px 0;
+}
+
+.forward {
+text-align:right;
+margin:5px 5px 0 0;
+}
+
+.forward img {
+width:10px;
+height:10px;
+filter:gray;
+padding-right:2px;
+}
+
+#article-box {
+margin:10px 0 0;
+}
+
+.main-list table {
+border-collapse:collapse;
+width:100%;
+margin:20px 0 0;
+}
+
+.main-list table td {
+border:1px solid #86d1e4;
+border-top:0 solid #86d1e4;
+border-left:0 solid #86d1e4;
+border-right:0 solid #86d1e4;
+}
+
+.post-comment {
+text-align:center;
+}
+
+.post-comment a {
+background:#fff;
+color:#555;
+padding:4px;
+}
+
+.user-post-title {
+color:#3a2305;
+font-size:9pt;
+font-family:arial;
+margin:20px 0 0;
+}
+
+.user-post-text {
+text-align:center;
+margin:auto 0;
+}
+
+.single-post {
+position:relative;
+text-align:left;
+overflow:hidden;
+_height:1%;
+line-height:18px;
+width:488px;
+word-break:break-all;
+background:#e8d5bd;
+border:1px solid #a1744a;
+margin:10px auto;
+padding:40px 0 10px;
+}
+
+.post-info {
+border-bottom:1px solid #a1744a;
+width:488px;
+position:absolute;
+top:0;
+left:0;
+overflow:hidden;
+color:#555;
+margin:0;
+padding:4px 5px;
+}
+
+.post-info a {
+color:#555;
+font-size:9pt;
+font-family:arial;
+}
+
+.post-photo {
+width:55px;
+float:left;
+text-align:center;
+padding:5px 0 10px 5px;
+}
+
+.post-photo img {
+width:40px;
+height:40px;
+background:#fff;
+border:1px solid #a1744a;
+}
+
+.post-text {
+float:right;
+width:420px;
+line-height:20px;
+color:#555;
+padding:0 5px 0 0;
+}
+
+.post-text p {
+font-weight:bold;
+color:#000;
+}
+
+#trackback-box .post-text {
+float:none;
+width:auto;
+padding:0 0 7px 7px;
+}
+
+.reply-text {
+clear:both;
+float:right;
+width:405px;
+color:#ab7657;
+line-height:21px;
+border-left:5px solid #ab7657;
+margin:5px 0 0;
+padding:0 5px;
+}
+
+.reply-text textarea {
+width:95%;
+height:1%;
+background:#fff;
+overflow:hidden;
+border:0;
+}
+
+.single-post.secret {
+min-height:20px;
+_height:20px;
+line-height:20px;
+padding-left:0;
+width:488px;
+padding-top:15px!important;
+}
+
+.single-post.secret .post-text {
+color:#ab7657;
+}
+
+#links {
+width:180px;
+float:left;
+}
+
+#links-row-1 {
+float:left;
+width:200px;
+position:relative;
+left:0;
+overflow:hidden;
+}
+
+#links-row-2 {
+float:right;
+width:200px;
+overflow:hidden;
+}
+
+h4.box-title {
+color:#ab7657;
+text-align:center;
+font-weight:bold;
+background:url(https://pic.pimg.tw/gomay520/ba2b97dcc60555c4aa0cfee45856b91c.jpg) no-repeat left top;
+padding:8px 0 15px;
+}
+
+.box-text {
+word-break:break-all;
+font-size:9pt;
+color:#555;
+line-height:21px;
+margin:0 0 20px;
+padding:15px 1px 0;
+}
+
+#links .box-text a {
+display:block;
+color:#000;
+}
+
+#links .box-text a:hover {
+color:#000;
+}
+
+.box-more {
+text-align:right;
+margin:5px 0 0;
+}
+
+.box-more a {
+color:#fff;
+border:1px solid #ab7657;
+background:#ab7657;
+padding:1px 3px;
+}
+
+.box-more a:hover {
+border:1px solid #3a79c8;
+background:#3a79c8;
+}
+
+#links .box .box-more a {
+color:#fff;
+display:inline;
+}
+
+#calendar table {
+width:100%;
+color:#fff;
+margin:0 auto;
+}
+
+#calendar table th,#calendar table td {
+text-align:center;
+font-size:11px;
+color:#555;
+border:2px solid #dfc5a4;
+background:#fff;
+}
+
+#visitor .box-text li a {
+width:25px;
+height:25px;
+margin:0 4px 2px 0;
+}
+
+#visitor .box-text li a:hover {
+background:none;
+}
+
+#visitor .box-text li img {
+margin:0;
+}
+
+#visitor .box-more {
+clear:both;
+}
+
+#latest-comment a {
+text-align:right;
+}
+
+#latest-comment span {
+font-weight:bold;
+}
+
+#links #latest-trackback .box-text a {
+border-bottom:0;
+text-align:left;
+}
+
+#links #subsc<x>ription .box-text li a {
+border:0;
+text-align:left;
+}
+
+#search .box-text li {
+display:inline;
+}
+
+input#search-target {
+width:100px;
+background:#eee;
+}
+
+#footer {
+background:#e9d5bd;
+border:1px solid #a1744a;
+clear:both;
+overflow:hidden;
+letter-spacing:1px;
+line-height:20px;
+color:#555;
+text-align:center;
+margin:10px;
+padding:10px 0;
+}
+
+fieldset,img,abbr,acronym {
+border:0;
+}
+
+caption,th,#trackback-url,#subscription .box-text,#subscription .box-text li a {
+text-align:left;
+}
+
+#header a,#header a:hover,#spotlight-text a:hover,.author a,.author a:hover,.back-to-top a,.post-comment a:hover,.reply-text a,#links a,#footer a {
+color:#555;
+}
+
+#banner h2 a,#blog-category a,#blog-category a:hover {
+color:#d95876;
+}
+
+#banner .skiplink,.history,.refer,img.pixnet-user,.user-ip {
+display:none;
+}
+
+#navigation li,#visitor .box-text li,#crumb li {
+float:left;
+}
+
+.title a,.title a:hover {
+color:#a1744a;
+}
+
+.article-content table td,.main-list td,.main-list th {
+padding:5px;
+}
+
+#trackback-input,#trackback-url input {
+color:#555;
+background:#fff;
+}
+
+#calendar .box-text td a,#calendar .box-text td a:hover {
+color:#555;
+font-weight:bold;
+background:#dfc5a4;
+}
+
+#visitor,#crumb ul {
+_height:1%;
+overflow:hidden;
+_overflow:none;
+}
+
+#visitor .box-text li a img,#visitor .box-text li a:hover img {
+height:25px;
+width:25px;
+}
+
+#latest-trackback li,#links #subsc<x>ription .box-text li {
+text-align:left;
+margin:0 0 3px;
+padding:0 0 3px;
+}
